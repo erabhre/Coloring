@@ -19,21 +19,34 @@ struct Keyword {
     var colorImage4: String
     var colorImage5: String
     var colorImage6: String
+    var colorName: String
+    var colorName2: String
+    var colorName3: String
+    var colorName4: String
+    var colorName5: String
+    var colorName6: String
+    
+    var colorCode: String
+    var colorCode2: String
+    var colorCode3: String
+    var colorCode4: String
+    var colorCode5: String
+    var colorCode6: String
 }
 
 struct KeywordView: View {
     var body: some View {
         let my: [Keyword] = [
-            Keyword(message: "Funny", image: "ColorButton", index: 1),
-            Keyword(message: "Energetic", image: "ColorButton3", index: 2),
-            Keyword(message: "Emotional", image:"ColorButton5", index: 3),
-            Keyword(message: "Modren", image: "ColorButton7", index: 4)
+            Keyword(message: "Funny", image: "ColorButton", index: 1, text: "Funny는 어쩌구 저쩌구", colorImage: "Group", colorImage2: "Group 2", colorImage3: "Group 3", colorImage4: "Group 4", colorImage5: "Group 5", colorImage6: "Group 6", colorName: "systemRed", colorName2: "systemPink", colorName3: "Turbo", colorName4: "Hollywood Cerise", colorName5: "Electric Violet", colorName6: "Flush Orange",colorCode: "EB4F3E", colorCode2: "EB4C62", colorCode3: "FFE500", colorCode4: "EB4C62", colorCode5: "9146FF", colorCode6: "FF7C00"),
+            Keyword(message: "Funny", image: "ColorButton", index: 1, text: "Funny는 어쩌구 저쩌구", colorImage: "Group", colorImage2: "Group 2", colorImage3: "Group 3", colorImage4: "Group 4", colorImage5: "Group 5", colorImage6: "Group 6", colorName: "systemRed", colorName2: "systemPink", colorName3: "Turbo", colorName4: "Hollywood Cerise", colorName5: "Electric Violet", colorName6: "Flush Orange",colorCode: "EB4F3E", colorCode2: "EB4C62", colorCode3: "FFE500", colorCode4: "EB4C62", colorCode5: "9146FF", colorCode6: "FF7C00"),
+            Keyword(message: "Funny", image: "ColorButton", index: 1, text: "Funny는 어쩌구 저쩌구", colorImage: "Group", colorImage2: "Group 2", colorImage3: "Group 3", colorImage4: "Group 4", colorImage5: "Group 5", colorImage6: "Group 6", colorName: "systemRed", colorName2: "systemPink", colorName3: "Turbo", colorName4: "Hollywood Cerise", colorName5: "Electric Violet", colorName6: "Flush Orange",colorCode: "EB4F3E", colorCode2: "EB4C62", colorCode3: "FFE500", colorCode4: "EB4C62", colorCode5: "9146FF", colorCode6: "FF7C00"),
+            Keyword(message: "Funny", image: "ColorButton", index: 1, text: "Funny는 어쩌구 저쩌구", colorImage: "Group", colorImage2: "Group 2", colorImage3: "Group 3", colorImage4: "Group 4", colorImage5: "Group 5", colorImage6: "Group 6", colorName: "systemRed", colorName2: "systemPink", colorName3: "Turbo", colorName4: "Hollywood Cerise", colorName5: "Electric Violet", colorName6: "Flush Orange",colorCode: "EB4F3E", colorCode2: "EB4C62", colorCode3: "FFE500", colorCode4: "EB4C62", colorCode5: "9146FF", colorCode6: "FF7C00")
         ]
         let my2: [Keyword] = [
-            Keyword(message: "Natural", image: "ColorButton2", index: 1),
-            Keyword(message: "Adorable", image: "ColorButton4", index: 2),
-            Keyword(message: "Trust", image:"ColorButton6", index: 3),
-            Keyword(message: "Vintage", image: "ColorButton8", index: 4)
+            Keyword(message: "Funny", image: "ColorButton", index: 1, text: "Funny는 어쩌구 저쩌구", colorImage: "Group", colorImage2: "Group 2", colorImage3: "Group 3", colorImage4: "Group 4", colorImage5: "Group 5", colorImage6: "Group 6", colorName: "systemRed", colorName2: "systemPink", colorName3: "Turbo", colorName4: "Hollywood Cerise", colorName5: "Electric Violet", colorName6: "Flush Orange",colorCode: "EB4F3E", colorCode2: "EB4C62", colorCode3: "FFE500", colorCode4: "EB4C62", colorCode5: "9146FF", colorCode6: "FF7C00"),
+            Keyword(message: "Funny", image: "ColorButton", index: 1, text: "Funny는 어쩌구 저쩌구", colorImage: "Group", colorImage2: "Group 2", colorImage3: "Group 3", colorImage4: "Group 4", colorImage5: "Group 5", colorImage6: "Group 6", colorName: "systemRed", colorName2: "systemPink", colorName3: "Turbo", colorName4: "Hollywood Cerise", colorName5: "Electric Violet", colorName6: "Flush Orange",colorCode: "EB4F3E", colorCode2: "EB4C62", colorCode3: "FFE500", colorCode4: "EB4C62", colorCode5: "9146FF", colorCode6: "FF7C00"),
+            Keyword(message: "Funny", image: "ColorButton", index: 1, text: "Funny는 어쩌구 저쩌구", colorImage: "Group", colorImage2: "Group 2", colorImage3: "Group 3", colorImage4: "Group 4", colorImage5: "Group 5", colorImage6: "Group 6", colorName: "systemRed", colorName2: "systemPink", colorName3: "Turbo", colorName4: "Hollywood Cerise", colorName5: "Electric Violet", colorName6: "Flush Orange",colorCode: "EB4F3E", colorCode2: "EB4C62", colorCode3: "FFE500", colorCode4: "EB4C62", colorCode5: "9146FF", colorCode6: "FF7C00"),
+            Keyword(message: "Funny", image: "ColorButton", index: 1, text: "Funny는 어쩌구 저쩌구", colorImage: "Group", colorImage2: "Group 2", colorImage3: "Group 3", colorImage4: "Group 4", colorImage5: "Group 5", colorImage6: "Group 6", colorName: "systemRed", colorName2: "systemPink", colorName3: "Turbo", colorName4: "Hollywood Cerise", colorName5: "Electric Violet", colorName6: "Flush Orange",colorCode: "EB4F3E", colorCode2: "EB4C62", colorCode3: "FFE500", colorCode4: "EB4C62", colorCode5: "9146FF", colorCode6: "FF7C00")
         ]
         NavigationView{
             ScrollView(.vertical, showsIndicators: true){

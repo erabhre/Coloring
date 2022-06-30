@@ -16,8 +16,6 @@
 		D965671C281FD149001DFCDA /* ColoringUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D965671B281FD149001DFCDA /* ColoringUITestsLaunchTests.swift */; };
 		D9656729281FD373001DFCDA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9656728281FD373001DFCDA /* MainView.swift */; };
 		D965672B28200D79001DFCDA /* KeywordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D965672A28200D79001DFCDA /* KeywordView.swift */; };
-		D965672D282020B2001DFCDA /* KeywordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D965672C282020B2001DFCDA /* KeywordRow.swift */; };
-		D965672F28202108001DFCDA /* KeywordRow2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D965672E28202108001DFCDA /* KeywordRow2.swift */; };
 		D96567312820423A001DFCDA /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96567302820423A001DFCDA /* Detail.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +49,6 @@
 		D965671B281FD149001DFCDA /* ColoringUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D9656728281FD373001DFCDA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D965672A28200D79001DFCDA /* KeywordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordView.swift; sourceTree = "<group>"; };
-		D965672C282020B2001DFCDA /* KeywordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordRow.swift; sourceTree = "<group>"; };
-		D965672E28202108001DFCDA /* KeywordRow2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordRow2.swift; sourceTree = "<group>"; };
 		D96567302820423A001DFCDA /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,13 +102,11 @@
 			children = (
 				D96566FE281FD148001DFCDA /* ColoringApp.swift */,
 				D9656728281FD373001DFCDA /* MainView.swift */,
-				D965672C282020B2001DFCDA /* KeywordRow.swift */,
-				D965672E28202108001DFCDA /* KeywordRow2.swift */,
 				D965672A28200D79001DFCDA /* KeywordView.swift */,
+				D96567302820423A001DFCDA /* Detail.swift */,
 				D9656700281FD148001DFCDA /* ContentView.swift */,
 				D9656702281FD149001DFCDA /* Assets.xcassets */,
 				D9656704281FD149001DFCDA /* Preview Content */,
-				D96567302820423A001DFCDA /* Detail.swift */,
 			);
 			path = Coloring;
 			sourceTree = "<group>";
@@ -274,8 +268,6 @@
 			files = (
 				D965672B28200D79001DFCDA /* KeywordView.swift in Sources */,
 				D96567312820423A001DFCDA /* Detail.swift in Sources */,
-				D965672F28202108001DFCDA /* KeywordRow2.swift in Sources */,
-				D965672D282020B2001DFCDA /* KeywordRow.swift in Sources */,
 				D9656701281FD148001DFCDA /* ContentView.swift in Sources */,
 				D9656729281FD373001DFCDA /* MainView.swift in Sources */,
 				D96566FF281FD148001DFCDA /* ColoringApp.swift in Sources */,
